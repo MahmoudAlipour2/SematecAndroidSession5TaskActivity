@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerifyRegisterActivity"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/tvMainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#80FF00"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Verify Registration"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Name: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/tvNameTwo"
+        android:layout_below="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#33FFFF"
+        android:padding="5dp" />
+
+
+    <TextView
+
+        android:id="@+id/tvLastName"
+        android:layout_below="@+id/tvNameTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="LastName: "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvLastNameTwo"
+        android:layout_below="@+id/tvLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#33FFFF"
+        android:padding="5dp" />
+
+
+    <Button
+        android:id="@+id/btnOkVerify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/tvLastNameTwo"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

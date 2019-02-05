@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!--App Title-->
+
+    <TextView
+        android:id="@+id/tvMainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#80FF00"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Session 5's Task!"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+    <!--HiUser-->
+    <TextView
+        android:id="@+id/tvHiUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMainAct"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Hi User"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Register"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_below="@+id/btnRegister"
+        android:id="@+id/btnUserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="UserInfo"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:layout_below="@+id/btnUserInfo"
+        android:id="@+id/btnEditInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="EditInfo"
+        android:textStyle="bold" />
+
+</RelativeLayout>
